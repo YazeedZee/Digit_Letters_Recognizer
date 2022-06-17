@@ -23,7 +23,8 @@ The model was able to train up to an accuracy of 90% and testing accuracy was va
 -	Arabic numbers testing got almost 96% accuracy. 
 ![Arabic numbers](https://i.imgur.com/nUp1Ac6.png)
 
-
+# Full Dataset
+- https://drive.google.com/drive/folders/1J13J9BxpPKw2WgfM01s73f2ASy6zuD6x?usp=sharing
 # Reference
 - Our main source for the code and English numbers dataset is this Kaggle page https://www.kaggle.com/wwsalmon/simple-mnist-nn-from-scratch-numpy-no-tf-keras/notebook 
 - for the English letters dataset: https://www.kaggle.com/crawford/emnist 
