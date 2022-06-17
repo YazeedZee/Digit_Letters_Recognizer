@@ -1,6 +1,6 @@
 '''
-@Author: Yazeed Alzughaibi - 1847186
-@Author: Mohammed Almaafi  - 1845137
+@Author: Yazeed Alzughaibi
+@Author: Mohammed Almaafi
 
 The original code was taken from 
 https://www.kaggle.com/wwsalmon/simple-mnist-nn-from-scratch-numpy-no-tf-keras/notebook
