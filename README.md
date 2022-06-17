@@ -8,6 +8,27 @@ Mainly, we changed the way the code receives data, it can test on pre-learned mo
 To train the model, we combined the data from MNIST (for English letters and numbers) and an Arabic data set from Kaggle (Arabic numbers) into one csv file and trained the model using it. Training might take a long time if you want a reasonable accuracy so we advise you to use the pre-learned code using the included w1, b1, w2 and b2 (based on a 50,000-iteration trained model that we trained)csv files and just test the code.
 For testing however, first we tried to come up with our own test data, in which we write numbers and letter and take their pictures and essentially turn them into csv files using the “PIL” Python library, unfortunately our model requires any input data to be in MNIST style and cannot read others very well thus making the data that we made useless. Although for testing at the end we just took a partition of the full data (English numbers and letters as well as Arabic numbers) and used it for testing.
 
+# Included files
+- FullDataExtended.csv
+- ArabicDigitTest.csv
+- EnglishDigitTest.csv
+- EnglishLettersTest.csv
+
+# Run Program
+- Once you run the program you will be asked to enter 1 for training data and then test it, or 2 if you have already trained the data and want to test another file.
+- If you want to test a part of the trained data comment lines 62, and 63.
+- To choose how much data do you want to split go to line 46.
+- To display images of the test subjects, uncomment lines 263 to 270.
+
+NOTE:
+You should have installed these libraries: 
+- Pandas
+- Numpy
+
+# Extra files
+If you want to only the data we have included w1, b1, w2, b2 files, which is trained on ( FullDataExtended.csv ).
+You can modify their paths from line 277 to 288.
+
 # Constraints
 To use this code, there are some constraints:
 -	Data must be in MNIST style
