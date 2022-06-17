@@ -8,6 +8,12 @@ Mainly, we changed the way the code receives data, it can test on pre-learned mo
 To train the model, we combined the data from MNIST (for English letters and numbers) and an Arabic data set from Kaggle (Arabic numbers) into one csv file and trained the model using it. Training might take a long time if you want a reasonable accuracy so we advise you to use the pre-learned code using the included w1, b1, w2 and b2 (based on a 50,000-iteration trained model that we trained)csv files and just test the code.
 For testing however, first we tried to come up with our own test data, in which we write numbers and letter and take their pictures and essentially turn them into csv files using the “PIL” Python library, unfortunately our model requires any input data to be in MNIST style and cannot read others very well thus making the data that we made useless. Although for testing at the end we just took a partition of the full data (English numbers and letters as well as Arabic numbers) and used it for testing.
 
+# Constraints
+To use this code, there are some constraints:
+-	Data must be in MNIST style
+-	Pictures must be 28 x 28 pixels 
+-	csv file must have the first column as labels for the data
+
 # Results
 The model was able to train up to an accuracy of 90% and testing accuracy was varying:
 -	English letters testing got almost 80% accuracy.
@@ -16,13 +22,6 @@ The model was able to train up to an accuracy of 90% and testing accuracy was va
 ![English numbers](https://i.imgur.com/KYmY05J.png) 
 -	Arabic numbers testing got almost 96% accuracy. 
 ![Arabic numbers](https://i.imgur.com/nUp1Ac6.png)
-
-
-# Constraints
-To use this code, there are some constraints:
--	Data must be in MNIST style
--	Pictures must be 28 x 28 pixels 
--	csv file must have the first column as labels for the data
 
 
 # Reference
