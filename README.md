@@ -11,9 +11,11 @@ For testing however, first we tried to come up with our own test data, in which 
 # Results
 The model was able to train up to an accuracy of 90% and testing accuracy was varying:
 -	English letters testing got almost 80% accuracy.
+![English letters](https://i.imgur.com/ktu6F9C.png)
 -	English numbers testing got almost 95% accuracy.
-![blabla](https://imgur.com/a/6ToyE1g) 
+![English numbers](https://i.imgur.com/KYmY05J.png) 
 -	Arabic numbers testing got almost 96% accuracy. 
+![Arabic numbers](https://i.imgur.com/nUp1Ac6.png)
 
 
 # Constraints
